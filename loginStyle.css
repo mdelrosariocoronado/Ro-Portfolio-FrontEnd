@@ -1,0 +1,65 @@
+:root{
+    --main-ablack: #160F21;
+    --main-adarkpurple50: rgba(60, 11, 125, 0.5);
+    --main-adarkpurple: #3C0B7D;
+    --main-apurple: #7153D5;
+    --main-apink: #FF598B;
+    --main-apink50: rgba(255, 89, 139, 0.5);
+    --main-ayellow: #FFC446;
+    --main-awhite: #EAE0F2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: src('./fonts/BarlowCondensed-Medium.ttf');
+    background-color: var(--main-ablack);
+    color: var(--main-awhite);
+
+}
+.main-container{
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.container h3{
+    text-align: center;
+}
+.container {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    background-color: var(--main-adarkpurple50);
+    width: 350px;
+    height:200px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.container input {
+    border-radius: 5px;
+    border-style: none;
+    padding: 4px;
+}
+
+.primary-button{
+    margin-left: 8px;
+    color: var(--main-ablack);
+    background-color: var(--main-ayellow);
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+

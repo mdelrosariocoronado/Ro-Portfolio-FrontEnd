@@ -1,0 +1,156 @@
+:root{
+    --main-ablack: #160F21;
+    --main-adarkpurple50: rgba(60, 11, 125, 0.5);
+    --main-adarkpurple: #3C0B7D;
+    --main-apurple: #7153D5;
+    --main-apink: #FF598B;
+    --main-apink50: rgba(255, 89, 139, 0.5);
+    --main-ayellow: #FFC446;
+    --main-awhite: #EAE0F2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: src('./fonts/BarlowCondensed-Medium.ttf');
+    background-color: var(--main-ablack);
+    color: var(--main-awhite);
+}
+
+header {
+    border-radius: 5px;
+    border: 2px solid var(--main-apink);
+    margin: 12px auto;                                                      
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    height: 80px;
+    color:var(--main-awhite);
+}
+header h3{
+    padding: 0px 8px;
+}
+.header-left{
+    padding-left: 16px;
+    display: inline-flex ;
+    align-items: center;
+}
+
+ .header-left .logo-arg-programa {
+    width: 160px;
+    height: 40px;
+    
+}
+
+.header-left #title-YoProgramo {
+    font-family: src('./fonts/Quicksand-VariableFont_wght.ttf');
+    
+}
+
+.header-right{
+    padding-right: 16px;
+    display: inline-flex ;
+    align-items: center;
+}
+.header-right .logo-red {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 28px;
+    height: 28px;
+    margin: 0px 12px;
+}
+
+.primary-button{
+    margin-left: 8px;
+    color: var(--main-ablack);
+    background-color: var(--main-ayellow);
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 1px;
+    font-size: 20px;
+}
+.banner {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon-decoration{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    translate: 0px 40%;
+}
+
+.banner .container{
+    height:250px;
+    color: var(--main-awhite);
+    background-color: var(--main-adarkpurple50);
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.info {
+    position: relative;
+    z-index: 15;
+    color: var(--main-awhite);
+    display: flex;
+    flex-direction: column;
+}
+.info .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    translate: 0px -30px;
+}
+.info .profile-image{
+    translate: 0px -20px;
+    width: 140px;
+    height: 140px;
+}
+.info .image-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.info .highlight-info{
+    text-align: right;
+    padding-right: 15%;
+}
+
+.highlight-info h4 {
+    
+    display: inline;
+    padding: 0px 20px;
+    color: var(--main-apink);
+    background-color: var(--main-adarkpurple50);
+}
+
+.container h5{
+    text-align: center;
+}
+
+.container h6{
+    padding: 8px 16px;
+    background-color: var(--main-apink50);
+    border-radius: 25px;
+}
+
+.experiences{
+    
+}
+.education{
+}
+.skills{
+}
+.projects{
+}
+    
