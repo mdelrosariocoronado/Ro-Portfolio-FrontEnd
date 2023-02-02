@@ -1,0 +1,19 @@
+.skills  {
+    margin-top: 40px;
+}
+
+.skills .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skills  .stat1{
+ width: 300px;
+ height: 200px;
+}
+.skills  .stat2{
+    width: 300px;
+    height: 200px;
+}

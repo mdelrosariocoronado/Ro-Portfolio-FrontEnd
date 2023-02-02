@@ -1,0 +1,43 @@
+
+header {
+    border-radius: 5px;
+    border: 2px solid var(--main-apink);
+    margin: 20px auto;                                                      
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    height: 80px;
+    color:var(--main-awhite);
+}
+header h3{
+    padding: 0px 8px;
+}
+.header-left{
+    padding-left: 16px;
+    display: inline-flex ;
+    align-items: center;
+}
+
+ .header-left .logo-arg-programa {
+    width: 160px;
+    height: 40px;
+    
+}
+
+.header-left #title-YoProgramo {
+    font-family: src('./assets//fonts/Quicksand-VariableFont_wght.ttf');
+    
+}
+
+.header-right{
+    padding-right: 16px;
+    display: inline-flex ;
+    align-items: center;
+}
+.header-right .logo-red {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 28px;
+    height: 28px;
+    margin: 0px 12px;
+}

@@ -1,0 +1,38 @@
+
+.info {
+    margin-top: 24px;
+    position: relative;
+    z-index: 15;
+    color: var(--main-awhite);
+    display: flex;
+    flex-direction: column;
+}
+.info .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    translate: 0px -30px;
+}
+.info .profile-image{
+    translate: 0px -20px;
+    width: 140px;
+    height: 140px;
+}
+.info .image-info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.info .highlight-info{
+    text-align: right;
+    padding-right: 15%;
+}
+
+.highlight-info h4 {
+    
+    display: inline;
+    padding: 0px 20px;
+    
+    color: var(--main-apink);
+    background-color: var(--main-adarkpurple50);
+}

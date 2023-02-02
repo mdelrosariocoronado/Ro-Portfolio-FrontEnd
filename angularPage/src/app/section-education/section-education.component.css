@@ -1,0 +1,16 @@
+.education {
+    margin-top: 40px;
+}
+
+.education .container{
+    text-align: center  ;
+    padding: 28px 0px;
+    width: 680px;
+    background-color: var(--main-adarkpurple50);
+    box-shadow: 0px 0px 40px 20px #210448;
+    border-radius: 5px;
+}
+
+.education h4{
+    font-size: 1.2rem;
+}

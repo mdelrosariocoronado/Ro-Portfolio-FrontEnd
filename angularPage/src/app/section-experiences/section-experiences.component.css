@@ -1,0 +1,15 @@
+:root{
+    --main-agrad:radial-gradient(63.8% 458.44% at 55.01% 65.32%, #7153D5 0%, #3C0B7D 100%);
+}
+
+.experiences {
+    margin-top: 40px;
+}
+
+.exp-cards .top-exp{
+background-color: var(--main-agrad);
+}
+
+.exp-cards .bottom-exp{
+
+}

@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --main-ablack: #160F21;
+    --main-adarkpurple50: rgba(60, 11, 125, 0.5);
+    --main-adarkpurple: #3C0B7D;
+    --main-apurple: #7153D5;
+    --main-apink: #FF598B;
+    --main-apink50: rgba(255, 89, 139, 0.5);
+    --main-ayellow: #FFC446;
+    --main-awhite: #EAE0F2;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    font-family: src('./assets/fonts/BarlowCondensed-Medium.ttf');
+    background-color: var(--main-ablack);
+    color: var(--main-awhite);
+}
+
+
+.primary-button{
+   text-decoration: none;
+    margin-left: 8px;
+    color: var(--main-ablack);
+    background-color: var(--main-ayellow);
+    padding: 4px 8px;
+    font-weight: semibold;
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+
+.container h5{
+    text-align: center;
+}
+
+.container h6{
+    padding: 8px 16px;
+    background-color: var(--main-apink50);
+    border-radius: 25px;
+}
