@@ -11,6 +11,7 @@ import { SectionEducationComponent } from './section-education/section-education
 import { SectionSkillsComponent } from './section-skills/section-skills.component';
 import { SectionProjectsComponent } from './section-projects/section-projects.component';
 import { FooterComponent } from './footer/footer.component';
+import { CarrouselComponent } from './carrousel/carrousel.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './footer/footer.component';
     SectionEducationComponent,
     SectionSkillsComponent,
     SectionProjectsComponent,
-    FooterComponent
+    FooterComponent,
+    CarrouselComponent
   ],
   imports: [
     BrowserModule,

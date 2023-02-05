@@ -1,3 +1,57 @@
-.projects {
-    margin-top: 40px;
+:root{
+    --main-ablack: #160F21;
+    --main-adarkpurple50: rgba(60, 11, 125, 0.5);
+    --main-adarkpurple: #3C0B7D;
+    --main-apurple: #7153D5;
+    --main-apink: #FF598B;
+    --main-apink50: rgba(255, 89, 139, 0.5);
+    --main-ayellow: #FFC446;
+    --main-awhite: #EAE0F2;
+}
+
+.projects-container{
+    margin: auto;
+}
+.projects-container img{
+    float: right;
+    padding-right: 80px;
+}
+.folder-container {
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    height: 500px;
+    width: 700px;
+}
+
+.folder-container .folder {
+    padding-left: 20px;
+    height: 40px;
+    opacity: 8;
+    animation: ease;
+}
+.folder .content {
+    visibility: hidden;
+}
+.folder-container .folder:hover {
+    cursor: crosshair;
+    height: 500px;
+    opacity: 1;
+}
+.folder-container .folder:hover .content {
+    visibility:visible;
+}
+
+.folder-container .project-one{
+    background-color: var(--main-apurple);
+}
+.folder-container .project-two{
+    background-color: var(--main-apink);
+}
+.folder-container .project-three{
+    background-color: var(--main-ayellow);
+}
+.folder-container .project-four{
+    background-color: var(--main-adarkpurple);
 }

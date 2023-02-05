@@ -1,15 +1,62 @@
-:root{
-    --main-agrad:radial-gradient(63.8% 458.44% at 55.01% 65.32%, #7153D5 0%, #3C0B7D 100%);
-}
+
 
 .experiences {
-    margin-top: 40px;
+    margin: 40px auto;
 }
+
+.container .title-exp{
+ padding: 20px 0px;
+ width: 500px;
+}
+
 
 .exp-cards .top-exp{
-background-color: var(--main-agrad);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-image: linear-gradient(45deg,
+                    hsl(266deg 84% 27%) 0%,
+                    hsl(266deg 84% 27%) 4%,
+                    hsl(263deg 69% 32%) 8%,
+                    hsl(259deg 54% 43%) 24%,
+                    hsl(257deg 50% 49%) 31%,
+                    hsl(255deg 55% 54%) 38%,
+                    hsl(262deg 59% 57%) 45%,
+                    hsl(284deg 53% 54%) 52%,
+                    hsl(305deg 52% 53%) 58%,
+                    hsl(330deg 83% 62%) 70%,
+                    hsl(339deg 96% 66%) 75%,
+                    hsl(349deg 100% 69%) 80%,
+                    hsl(15deg 100% 69%) 87%,
+                    hsl(34deg 100% 64%) 93%
+                    );
+    border-radius: 15px 15px 0px 0px;
+    padding: 4px 16px;
+    margin: 8px 0px;
+}
+.top-exp h3 {
+     padding-top: 8px;
+   }
+.top-exp .deco-exp{
+ width: 60px;
 }
 
-.exp-cards .bottom-exp{
 
+.exp-cards .bottom-exp{
+ padding: 16px 24px;
+ margin-bottom:24px;
+ background-image: linear-gradient(
+    40deg,
+    rgba(61, 11, 127, 0.5) 0%,
+    rgba(80, 42, 157, 0.5) 29%,
+    rgba(103, 70, 195, 0.5) 57%,
+    rgba(80, 42, 157, 0.5) 71%,
+    rgba(61, 11, 127, 0.5) 100%
+  );
+  border-radius: 0px 0px 15px 15px ;
+}
+
+.bottom-exp h5{
+    padding-left: 20px;
 }

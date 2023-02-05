@@ -36,3 +36,13 @@
     color: var(--main-apink);
     background-color: var(--main-adarkpurple50);
 }
+
+.container h5{
+    text-align: center;
+}
+
+.container h6{
+    padding: 8px 16px;
+    background-color: var(--main-apink50);
+    border-radius: 25px;
+}
