@@ -70,4 +70,4 @@ CREATE TABLE `social_medias` (
   CONSTRAINT `fk_social_medias_people1` FOREIGN KEY (`people_idpeople`) REFERENCES `people` (`idpeople`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
-select * from social_medias;
+select  from social_medias;
